@@ -2,69 +2,79 @@
   margin: 0;
   padding: 0;
 }
+
 /* First - Main Section   */
 #home {
-  background-color: darkslategrey;
-  color: white;
+  background-color: #00BFFF;
+  color: black;
   width: 100%;
-  display:flex;
-height: 100%;
-padding: 50px 200px;
+  display: flex;
+  height: 100%;
+  padding: 50px 200px;
 
 }
-.welcome{
-  display:flex;
+
+.welcome {
+  display: flex;
   align-content: space-between;
   flex-direction: column;
   justify-content: center;
   gap: 2em;
-  width:300px;
-  padding-right:200px;
+  width: 300px;
+  padding-right: 200px;
 }
-#home iframe{
-  width:500px; 
-  height:300px;
+
+#home iframe {
+  width: 500px;
+  height: 300px;
 
 }
 
 
 /* Second - Urban Cities Pictures Section */
 #urban-cities img {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
-#urban-cities{
+
+#urban-cities {
   background-image: url('https://images.unsplash.com/photo-1544991185-13fe5d113fe3?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
+
 .images {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 50px 100px;
 }
-.pics{
-display:flex;
-flex-direction:column;
-margin: 50px;
-border: 20px ridge rgba(34,47,174,0.75);
-background: rgba(23,41,135,0.59);
+
+.pics {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 20px ridge rgba(34, 47, 174, 0.75);
+  background: rgba(23, 41, 135, 0.59);
 }
-span{
+
+span {
   text-align: center;
   padding: 10px;
-  color:white;
+  color: white;
 }
-h2 {
+
+h1 {
   text-align: center;
+  padding-top: 40px;
 }
 
 /* Third - Quote Section */
 #quote {
-  background-color: lightgrey;
+  background-color: #00BFFF;
   color: black;
   width: 100%;
   height: 500px;
 }
+
 blockquote {
   font-size: 2em;
   padding: 200px 300px;
@@ -72,38 +82,60 @@ blockquote {
 }
 
 /* Fourth- Sign Up Section */
-#signup {
-  
+#sign-up {
+  background-color: #1E90FF;
   color: white;
   width: 100%;
   height: 500px;
 }
-.sign-up{
-  display:flex;
+
+.sign-up {
+  display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
+  padding-top: 200px;
 }
-/* Footer */
+h2{
+  text-align: center;
+}
 
 button {
-  background-color: yellow;
+  background-color: #000080;
   color: white;
+  padding: 10px 40px;
+  border-radius: 8%;
+}
+
+/* Footer */
+footer {
+  background-color: #4169E1;
+  color: black;
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 10px;
 }
 
 /* navigation bar */
 header {
-  background-color: rgb(35, 31, 31);
+  background-color: #4169E1;
   color: white;
   height: 50px;
 }
+
 a {
   text-decoration: none;
   color: white;
   font-size: 1.2em;
 }
+
 a:hover {
   color: lightblue;
-} 
+}
+
 .topnav a {
   float: left;
   text-align: center;
