@@ -1,21 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* First - Main Section   */
+#home {
+  background-color: darkslategrey;
+  color: white;
+  width: 100%;
+}
 .main {
-    background-color: darkslategrey;
-    color: white;
- width: 100%;
+  display: flex;
+  flex-direction: row;
+padding:50px 100px;
+justify-content: space-around;
 }
+.welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.main img{
+
+}
+
+/* Second - Urban Cities Pictures Section */
+img {
+  width: 300px;
+  height: 200px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px 100px;
+}
+.imgrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+h2 {
+  text-align: center;
+}
+
+/* Third - Quote Section */
 .quotes {
-    background-color: lightgrey;
-    color: black;
-    width: 100%;
-    height: 500px;
+  background-color: lightgrey;
+  color: black;
+  width: 100%;
+  height: 500px;
 }
-button {
-    background-color:  rgb(12, 137, 239);
-    color:white;
+blockquote {
+  font-size: 2rem;
+  padding: 200px 300px;
+  text-align: center;
 }
+
+/* Fourth- Sign Up Section */
 .signup {
-background-color: rgb(12, 137, 239);
-color:white;
-width: 100%;
-height: 500px;
+  background-color: rgb(12, 137, 239);
+  color: white;
+  width: 100%;
+  height: 500px;
+}
+
+/* Footer */
+
+button {
+  background-color: rgb(12, 137, 239);
+  color: white;
+}
+
+/* navigation bar */
+header {
+  background-color: rgb(35, 31, 31);
+  color: white;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+a:hover {
+  color: lightblue;
+} 
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 60px;
 }
